@@ -1,8 +1,14 @@
 import React from 'react'
+import Loading from './components/Loading'
+import Newfile from './components/Newfile'
 
 const App = () => {
   return (
-    <div>Interview Bit</div>
+    <div>
+      <Loading />
+      <Newfile />
+
+    </div>
   )
 }
 
